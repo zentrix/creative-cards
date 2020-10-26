@@ -1,6 +1,7 @@
 <template>
     <div>
         <h1 class="text-center">Creative cards</h1>
+        <hr>
         <ul class="nav justify-content-center">
             <li class="nav-item" ><a class="nav-link" @click="pageSelected='cardFront'">Front</a></li>
             <li class="nav-item" ><a class="nav-link" @click="pageSelected='cardInsideLeft'">Inside Left</a></li>
